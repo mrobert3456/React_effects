@@ -53,3 +53,8 @@ export default AuthContext;
 // and in the children components we can use context.Consumer to listen to the datas
 
 //other way: useContext hook
+
+// using context in the button component would be bad, beceause then it could only be used
+// as a login,logout button, and it would be not reusable
+
+//context is not optimized for high frequency changes!!
